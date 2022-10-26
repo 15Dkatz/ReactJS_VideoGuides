@@ -12,8 +12,8 @@ const PROJECTS = [
   },
   {
     id: 2,
-    title: 'My API',
-    description: 'A REST API that I built from scratch with GET and POST requests!',
+    title: 'MY API',
+    description: 'A REST API that I built form scratch with GET and POST requests!',
     link: 'https://github.com/15Dkatz/example',
     image: project2
   },

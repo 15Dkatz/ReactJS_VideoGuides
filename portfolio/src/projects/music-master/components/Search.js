@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 class Search extends Component {
+
   state = { artistQuery: '' };
 
   updateArtistQuery = event => {
+    console.log('event.target.value', event.target.value);
     this.setState({ artistQuery: event.target.value });
   }
 
@@ -23,7 +25,7 @@ class Search extends Component {
         <input
           onChange={this.updateArtistQuery}
           onKeyPress={this.handleKeyPress}
-          placeholder='Search for an Artist'
+          placeholder='Search for an artist'
         />
         <button onClick={this.searchArtist}>Search</button>
       </div>

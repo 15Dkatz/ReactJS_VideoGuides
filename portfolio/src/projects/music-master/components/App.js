@@ -9,7 +9,7 @@ class App extends Component {
   state = { artist: null, tracks: [] };
 
   componentDidMount() {
-    this.searchArtist('pentatonix');
+    this.searchArtist('metallica')
   }
 
   searchArtist = artistQuery => {
@@ -31,6 +31,8 @@ class App extends Component {
   }
 
   render() {
+    console.log('this.state', this.state);
+
     return (
       <div>
         <h2>Music Master</h2>
@@ -38,7 +40,7 @@ class App extends Component {
         <Artist artist={this.state.artist} />
         <Tracks tracks={this.state.tracks} />
       </div>
-    );
+    ); 
   }
 }
 

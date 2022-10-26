@@ -1,7 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
-// const element = React.createElement('div', null, 'React element!');
+console.log('hi');
+
 const element = <div>React element with JSX!</div>;
 
-ReactDOM.render(element, document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(element);

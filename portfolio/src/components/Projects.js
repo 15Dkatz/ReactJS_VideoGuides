@@ -11,20 +11,20 @@ const Project = props => {
       <p>{description}</p>
       <a href={link}>{link}</a>
     </div>
-  )
+  );
 }
 
 const Projects = () => (
-  <div>
-    <h2>Highlighted Projects</h2>
     <div>
-      {
-        PROJECTS.map(PROJECT => (
-          <Project key={PROJECT.id} project={PROJECT} />
-        ))
-      }
+      <h2>Highlighted Projects</h2>
+      <div>
+        {
+          PROJECTS.map(PROJECT => (
+            <Project key={PROJECT.id} project={PROJECT} />
+          ))
+        }
+      </div>
     </div>
-  </div>
-)
+  );
 
 export default Projects;

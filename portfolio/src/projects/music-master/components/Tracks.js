@@ -33,7 +33,7 @@ class Tracks extends Component {
       return <span>| |</span>;
     }
 
-    return <span>&#9654;</span>;
+    return <span>&#9654;</span>
   }
 
   render() {
@@ -54,7 +54,7 @@ class Tracks extends Component {
                 <img
                   src={album.images[0].url}
                   alt='track-image'
-                  className='track-image' 
+                  className='track-image'
                 />
                 <p className='track-text'>{name}</p>
                 <p className='track-icon'>{this.trackIcon(track)}</p>

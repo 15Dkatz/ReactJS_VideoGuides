@@ -9,7 +9,7 @@ const Artist = ({ artist }) => {
     <div>
       <h3>{name}</h3>
       <p>{followers.total} followers</p>
-      <p>{genres.join(', ')}</p>
+      <p>{genres.join(',')}</p>
       <img
         src={images[0] && images[0].url}
         alt='artist-profile'
@@ -21,7 +21,7 @@ const Artist = ({ artist }) => {
         }}
       />
     </div>
-  )
+  );
 }
 
 export default Artist;

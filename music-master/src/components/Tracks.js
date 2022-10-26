@@ -33,7 +33,7 @@ class Tracks extends Component {
       return <span>| |</span>;
     }
 
-    return <span>&#9654;</span>;
+    return <span>&#9654;</span>
   }
 
   render() {
