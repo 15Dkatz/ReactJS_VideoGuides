@@ -1,11 +1,12 @@
 # React JS Web Development - The Essentials Bootcamp
 
-Official repository guide to accompany the video lessons of the following React Bootcamp course: https://www.udemy.com/react-js-and-redux-mastering-web-apps/
+Official repository guide to accompany the video lessons of the "React JS Web Development - The Essentials Bootcamp" course.
 
-#### Also check out the commit-by-lecture guide: https://github.com/15Dkatz/react-essentials-bootcamp-commits
-This breaks down the course one commit at a time, per lecture, for an easier checkpoint/troubleshooting experience.
+#### Links
+* **Course on udemy**: https://www.udemy.com/react-js-and-redux-mastering-web-apps/
+* **Commit-by-lecture guide**: https://github.com/15Dkatz/react-essentials-bootcamp-commits. This breaks down the course one commit at a time, per lecture, for an easier checkpoint/troubleshooting experience.
 
-*This provides the completed projects for:*
+**This provides the completed projects for:**
 - portfolio
 - music-master
 - react-app-template
@@ -13,7 +14,7 @@ This breaks down the course one commit at a time, per lecture, for an easier che
 - starter
 - react-hooks
 
-*In this course, you will:*
+**In this course, you will:**
 
 **Dive into React code right away**. You will gain relevant experience as soon as the first section. Time is precious. And I want to make sure that you’ll never feel like you’re wasting it in this course. So in a matter of minutes, you will be writing React code in the first section, with a fully completed app by the end of it.
 
